@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+
+  padding: 0;
+}
+
+body {
+  background-color: rgb(251, 172, 185);
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  background-color: rgb(239, 124, 141);
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b0413e;
+}
+
+#hd {
+  color: rgb(79, 5, 5);
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.box:hover {
+  background-color: rgb(249, 121, 121);
+
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+#rst-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+
+  background-color: #ed5161;
+  color: #000;
+
+  border-radius: 1rem;
+  border: none;
+}
+
+#rst-btn:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5rem rgb(241, 245, 12, 0.7);
+}
+
+#nbtn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: rgb(247, 247, 37);
+  color: #000;
+  border-radius: 1rem;
+  border: none;
+}
+
+#btns {
+  display: flex;
+  justify-content: center;
+  gap: 4vmin;
+}
+
+#nbtn:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5rem rgb(241, 245, 12, 0.7);
+}
+
+#msg {
+  color: rgb(230, 73, 68);
+  font-size: 7.5vmin;
+}
+
+.msg-container {
+  height: 10vmin;
+  margin-top: 1vmin;
+}
+
+#msg2 {
+  color: rgb(229, 21, 13);
+  font-size: 7.5vmin;
+}
+
+.draw {
+  height: 10vmin;
+  margin-top: 1vmin;
+}
+
+.hide {
+  display: none;
+}
